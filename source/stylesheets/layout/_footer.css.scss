@@ -1,17 +1,26 @@
 .footer {
   background: #808080;
   height: 120px;
-  color: #E6E6E6;
+  color: $gray-darker;
   text-align: center;
   padding-top: 15px;
   a {
   font-size: 50px;
-  color: #FFFFFF;
+  color: $gray-lighter;
   }
   ul {
     margin-bottom: -1px;
   }
-  a:hover {
-    color: #469AE0;
+  .facebook:hover {
+    color: $blue-facebook;
+  }
+  .instagram:hover {
+    color: $brown-instagram;
+  }
+  .linkedin:hover {
+    color: $blue-linked-in;
+  }
+  .twitter:hover {
+    color: $blue-twitter;
   }
 }
